@@ -17,44 +17,64 @@ body{
 
 /* Navbar */
 .navbar{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:80px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:8px 50px;
-    background:rgba(0,0,0,0.5);
-    backdrop-filter:blur(5px);
-    z-index:1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 50px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
 }
+
+.kanavagam-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.kanavagam-logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.kanavagam-logo h2{
+    color: #FFD54F;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
 .nav-links{
-    display:flex;
-    list-style:none;
-    gap:30px;
-    margin:0;
-    padding:0;
-    align-items:center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
 
 .nav-links li{
-    list-style:none;
+    list-style: none;
 }
 
 .nav-links li a{
-    text-decoration:none;
-    color:#F8F4E3;
-    font-size:16px;
-    font-weight:500;
-    transition:0.3s;
+    text-decoration: none;
+    color: #F8F4E3;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .nav-links li a:hover,
 .nav-links li a.active{
-    color:#FFD54F;
+    color: #FFD54F;
 }
+
 /* Hero Section */
 .hero{
     height:100vh;
